@@ -3,7 +3,7 @@ import UploadForm from './components/UploadForm';
 import ModelSelector from './components/ModelSelector';
 import ResultDisplay from './components/ResultDisplay';
 import { classifyFruit } from './api/predict';
-
+import Footer from './components/Footer';
 function App() {
   const [file, setFile] = useState(null);
   const [selectedModel, setSelectedModel] = useState("logistic");
@@ -36,6 +36,7 @@ function App() {
 
           <ResultDisplay result={result} />
       </div>
+        <Footer />
     </div>
   );
 }
