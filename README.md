@@ -89,8 +89,9 @@ Open your terminal and run:
 
 ```bash
 npx create-react-app fruit-classifier-frontend
-This scaffolds a working React app with everything preconfigured.
 ```
+This scaffolds a working React app with everything preconfigured.
+
 📁 2. **Project Structure**
 Once created, navigate into the folder:
 
