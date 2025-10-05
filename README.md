@@ -127,13 +127,12 @@ mkdir src/components
 
 Add these files:
 
-UploadForm.js
+- UploadForm.js
 
-ModelSelector.js
+- ModelSelector.js
 
-ResultDisplay.js
+- ResultDisplay.js
 
-Paste the working versions of each component (I can help reformat if needed)
 
 🔌 5. **Add Axios for API Calls**
 Install Axios:
@@ -170,6 +169,7 @@ Your app should open at http://localhost:3000
 ✅ No syntax errors in React components
 
 ✅ CDN Tailwind loaded in index.html
+
 ---
 ## 🖼️ Using the App
 Upload a fruit image (JPG or PNG)
@@ -179,19 +179,21 @@ Select a model from the dropdown
 Click Classify
 
 View predicted fruit and confidence score
+
 ---
 ## 🧪 Supported Models
-Logistic Regression
+- Logistic Regression
 
-Decision Tree
+- Decision Tree
 
-Random Forest
+- Random Forest
 
-k-Nearest Neighbors
+- k-Nearest Neighbors
 
-Support Vector Machine
+- Support Vector Machine
 
 Each model is trained on color histogram features extracted from fruit images.
+
 ---
 ## 🧑‍🏫 For Educators & Learners
 This project is designed to be modular and teachable:
@@ -201,6 +203,7 @@ No deep learning required
 Easy to extend with new models or features
 
 Great for workshops, bootcamps, and self-paced learning
+
 ---
 ## 🐞 Troubleshooting
 Network Error: Ensure backend is running on localhost:8000
@@ -210,12 +213,15 @@ CORS Error: Backend must include CORS middleware
 Model Not Found: Run train_models.py before using the app
 
 Image Misclassification: Try different models or improve dataset quality
+
 ---
 ## 📚 Credits
 Dataset: Kaggle Fruits Dataset
 
 Built by: Shreenidhi — Full-stack ML engineer & educational architect
+
 ---
 ## 📌 License
 This project is open-source and free to use for educational purposes.
+
 ---
