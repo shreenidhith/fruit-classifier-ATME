@@ -60,7 +60,7 @@ fruit-classifier/
    ```bash
    git clone https://github.com/your-username/fruit-classifier.git
    cd fruit-classifier/backend
-```
+   ```
 2. **Install dependencies**
 
 ```bash
